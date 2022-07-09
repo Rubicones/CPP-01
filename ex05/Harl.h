@@ -8,6 +8,8 @@
 #include <string>
 #include <iostream>
 
+
+
 class Harl{
 public:
 	void    complain( std::string level ){
@@ -38,5 +40,8 @@ private:
 		<< "This is unacceptable! I want to speak to the manager now." << std::endl;
 	}
 };
+
+typedef std::string (Harl::*memberPointerFunArray)(std::string);
+
 
 #endif //HARL_H
