@@ -9,36 +9,17 @@
 
 class Zombie{
 public:
-	Zombie(){}
-
-	Zombie(std::string name){
-		_name = name;
-	}
-
-	void announce(){
-		std::cout << _name << ": BraiiiiiiinnnzzzZ..." << std::endl;
-	}
-
-	Zombie *newZombie( std::string name ){
-		Zombie *zomb = new Zombie(name);
-		return (zomb);
-	}
-
-	void set_name(std::string name){
-		_name = name;
-	}
-
-	void randomChump( std::string name ){
-		Zombie zomb(name);
-		zomb.announce();
-	}
-
-	~Zombie(){
-		std::cout << _name << " died" << std::endl;
-	}
+	Zombie();
+	Zombie(std::string name);
+	void announce();
+	void set_name(std::string name);
+	Zombie *newZombie( std::string name );
+	void randomChump( std::string name );
+	~Zombie();
 private:
-	Zombie *new_zombie;
 	std::string _name;
 };
+
+Zombie *zombieHorde(int N, std::string name);
 
 #endif //ZOMBIE_H

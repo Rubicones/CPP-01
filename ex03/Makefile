@@ -1,6 +1,6 @@
 NAME	=	reznya
 
-NAMES	=	main
+NAMES	=	main HumanA HumanB Weapon
 
 OBJ_DIR		=	obj/
 INC_DIR		= 	inc/

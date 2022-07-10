@@ -10,19 +10,12 @@
 
 class Weapon{
 public:
-	Weapon(){ }
-	Weapon(std::string type){
-		_type = type;
-	}
-	void setType(std::string type){
-		_type = type;
-	}
-	const std::string &getType(){
-		return (_type);
-	}
+	Weapon();
+	Weapon(std::string type);
+	void setType(std::string type);
+	const std::string &getType();
 private:
 	std::string _type;
-
 };
 
 #endif //WEAPON_H

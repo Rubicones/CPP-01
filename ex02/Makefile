@@ -1,4 +1,4 @@
-NAME	=	zombiez
+NAME	=	thisisbrain
 
 NAMES	=	main
 

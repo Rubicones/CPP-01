@@ -1,6 +1,6 @@
 NAME	=	zombiez
 
-NAMES	=	main
+NAMES	=	main Zombie
 
 OBJ_DIR		=	obj/
 INC_DIR		= 	inc/

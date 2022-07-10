@@ -1,4 +1,4 @@
-NAME	=	harl
+NAME	=	harlFilter
 
 NAMES	=	main Harl
 

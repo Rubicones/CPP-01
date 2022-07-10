@@ -16,9 +16,4 @@ int main(){
 	std::cout << here_string << std::endl;
 	std::cout << *stringPTR << std::endl;
 	std::cout << stringREF << std::endl;
-
-	here_string = "ABCD";
-	std::cout << here_string << std::endl;
-	std::cout << stringPTR << std::endl;
-	std::cout << stringREF << std::endl;
 }
